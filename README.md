@@ -21,9 +21,26 @@ extension String {
     }
 }
 ```
+# ❓How to use extension 
+
+```swift
+ // Outlets
+ @IBOutlet weak var greetingsLabel: UILabel!
+ 
+ // Assiging text
+ greetingsLabel.text = "Hello".localized()
+```
 ***Make sure the Key:Value file folder is named the same as given in tableName above***
 
 # 📱 Snapshots
 | English | Hindi |
 | -- | -- |
-| | |
+| ![SS1](https://user-images.githubusercontent.com/56252259/175936873-24dc9576-487b-4fa1-8b48-ad77ffe59af6.png) | ![SS2](https://user-images.githubusercontent.com/56252259/175937604-a31ae6c7-2279-41de-85d0-031ce0873f49.png) |
+
+# 📁 Localizable File 
+* To best way to make localization easy is by converting the native language text as key and its value as the required language translation.
+```swift
+"Hello" = "नमस्ते";
+```
+Similarly add values for every text for localization in the **Localizable File**.
+
