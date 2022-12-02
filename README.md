@@ -10,7 +10,7 @@ There are three main steps for localization:
 2. Add the extension given below to all the string
 3. Add the Key:Value for languages in the Localizable file
 
-***For eg: For Hello in english -> नमस्ते in hindi***  just provide the value of Hello in the Localizable string folder.
+***For eg:For Hello in english -> नमस्ते in hindi***  just provide the value of Hello in the Localizable string folder.
 
 # 📌 Localization Extension
 ```swift
